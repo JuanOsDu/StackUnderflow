@@ -4,6 +4,7 @@
   "description": "Blog para comunidad IT",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "repository": {
@@ -17,8 +18,11 @@
   },
   "homepage": "https://github.com/JuanOsDu/StackUnderflow#readme",
   "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.18.1",
-    "nodemon": "^2.0.19",
     "pg": "^8.7.3"
   }
 }
